@@ -15,7 +15,7 @@ struct QueueNode
 template <typename T>
 class Queue
 {
-	int 							m_size  = 0;
+	int 				m_size  = 0;
 	std::shared_ptr<QueueNode<T>> 	m_first = nullptr;
 	std::shared_ptr<QueueNode<T>> 	m_top   = nullptr;
 	
