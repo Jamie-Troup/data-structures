@@ -16,7 +16,7 @@ public:
 template <class T>
 class Stack
 {
-	int						 		m_size = 0;
+	int				m_size = 0;
 	std::shared_ptr<StackNode<T>> 	m_root = nullptr;
 	std::shared_ptr<StackNode<T>>   m_top  = nullptr;
 
